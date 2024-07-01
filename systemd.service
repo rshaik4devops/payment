@@ -6,7 +6,9 @@ User=root
 WorkingDirectory=/home/roboshop/payment
 
 Environment=CART_HOST=CARTHOST
+Environment=CART_PORT=8080
 Environment=USER_HOST=USERHOST
+Environment=USER_PORT=8080
 Environment=AMQP_HOST=AMQPHOST
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
